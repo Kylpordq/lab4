@@ -120,8 +120,8 @@ for ($i = 0; $i < count($descriptions); $i++) {
    if ($fileExt == 'jpg' || $fileExt == 'jpeg') {
     echo '<img src="' . $path . '" alt="Изображение ' . ($i-1) . '">';
   }
-  
-   ```
+  ```
+
 Скриншот:
 
 ![image](https://github.com/user-attachments/assets/119b3742-a032-4cd7-8764-5dc0614d467b)
