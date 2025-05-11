@@ -77,7 +77,8 @@ echo "End of the loop: a = $a, b = $b<br>"; ?>
 ![image](https://github.com/user-attachments/assets/ce2eee4e-6012-405b-8c25-57306c384bcb)
 
 3. Работа с массивами:
-   ```/php
+   ```php
+   
    <?php echo "<h2>Задание 3: Работа с массивами</h2>";
   $numbers = [];
   for($i=0; $i<100; $i++){
@@ -88,7 +89,8 @@ echo "End of the loop: a = $a, b = $b<br>"; ?>
     echo"Элемент $i = $numbers[$i]  <br>";
   }
   ?>
-```/
+  
+```
 Скриншот:
 
 ![image](https://github.com/user-attachments/assets/3a549b8e-bfe1-4e7b-9920-7bf9dc372ba8)
@@ -119,6 +121,7 @@ for ($i = 0; $i < count($descriptions); $i++) {
    if ($fileExt == 'jpg' || $fileExt == 'jpeg') {
     echo '<img src="' . $path . '" alt="Изображение ' . ($i-1) . '">';
   }
+  
    ```
 Скриншот:
 
