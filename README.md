@@ -146,10 +146,18 @@ for ($i = 0; $i < count($descriptions); $i++) {
 
    Это массив, в котором ключи представлены строками.
 
-5. Как задать путь к папку с изображением ?
+5. Как задать путь в папку с изображением ?
 
   ```php
   $dir = 'image/';
   ```
    
+## 6. Список использованных источников
 
+   1. https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/
+      
+   2. https://gist.github.com/Jekins/2bf2d0638163f1294637
+
+   3. https://proglib.io/p/samouchitel-dlya-nachinayushchih-kak-osvoit-php-s-nulya-za-30-minut-2021-02-08
+
+      
