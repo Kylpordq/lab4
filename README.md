@@ -88,7 +88,7 @@ echo "End of the loop: a = $a, b = $b<br>"; ?>
     echo"Элемент $i = $numbers[$i]  <br>";
   }
   ?>
-   ```
+```
 Скриншот:
 
 ![image](https://github.com/user-attachments/assets/3a549b8e-bfe1-4e7b-9920-7bf9dc372ba8)
