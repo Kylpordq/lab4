@@ -52,6 +52,8 @@ for ($i = 0; $i <= 5; $i++) {
 }
 echo "End of the loop: a = $a, b = $b<br>"; ?>
 ```
+Скриншот:
+
 ![image](https://github.com/user-attachments/assets/80f09ec1-94e8-4b26-87b8-7ae8cc4de1d3)
 
 2. Реализация цикла while:
@@ -70,6 +72,54 @@ while ($i <= 5) {
 }
 echo "End of the loop: a = $a, b = $b<br>"; ?>
 ```
+Скриншот:
+
 ![image](https://github.com/user-attachments/assets/ce2eee4e-6012-405b-8c25-57306c384bcb)
+
+3. Работа с массивами:
+   ```php
+   <?php echo "<h2>Задание 3: Работа с массивами</h2>";
+  $numbers = [];
+  for($i=0; $i<100; $i++){
+   $numbers[] = rand(1, 100); 
+  }
+  echo "Массив: <br>";
+  for($i=0; $i<count($numbers); $i++){
+    echo"Элемент $i = $numbers[$i]  <br>";
+  }
+  
+?>
+   ```
+Скриншот:
+
+![image](https://github.com/user-attachments/assets/3a549b8e-bfe1-4e7b-9920-7bf9dc372ba8)
+
+4. Ассоциативные массивы и функции:
+
+Вывод транзакций
+  ```php
+echo "<h3>Результаты обработки транзакций:</h3>";
+echo "Общая сумма: " . calculateTotalAmount($transactions) . "<br>";
+echo "Средняя сумма: " . calculateAverage($transactions) . "<br>";
+
+$descriptions = mapTransactionDescriptions($transactions);
+for ($i = 0; $i < count($descriptions); $i++) {
+    echo "Описание транзакции номер: $i: " . $descriptions[$i] . "<br>";
+}
+   ```
+Скриншот
+
+![image](https://github.com/user-attachments/assets/a94aa67e-2c31-415f-b400-9a34f996444d)
+
+5. Работа с файловой системой:
+   Галерея изображений
+   ```php
+   if ($fileExt == 'jpg' || $fileExt == 'jpeg') {
+    echo '<img src="' . $path . '" alt="Изображение ' . ($i-1) . '">';
+  }
+   ```
+Скриншот
+
+![image](https://github.com/user-attachments/assets/119b3742-a032-4cd7-8764-5dc0614d467b)
 
 
