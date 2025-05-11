@@ -120,7 +120,7 @@ for ($i = 0; $i < count($descriptions); $i++) {
    if ($fileExt == 'jpg' || $fileExt == 'jpeg') {
     echo '<img src="' . $path . '" alt="Изображение ' . ($i-1) . '">';
   }
-  ```
+    ```
 
 Скриншот:
 
