@@ -37,6 +37,9 @@ __Цель:__ Изучить основы работы с циклами, мас
 </table>
 
 ## 4. Примеры использования проекта с приложением скриншотов или фрагментов кода
+
+1.Рeализация цикла for:
+
 ```php
 <?php echo "<h2>Задание 1: Цикл for</h2>";
 $a = 0;
@@ -47,4 +50,26 @@ for ($i = 0; $i <= 5; $i++) {
     $b += 5;
     echo "Шаг $i: a = $a, b = $b<br>";
 }
+echo "End of the loop: a = $a, b = $b<br>"; ?>
 ```
+![image](https://github.com/user-attachments/assets/80f09ec1-94e8-4b26-87b8-7ae8cc4de1d3)
+
+2. Реализация цикла while:
+```php
+<?php echo "<h2>Задание 2: Цикл while</h2>"; 
+
+$a = 0;
+$b = 0;
+$i = 0;
+
+while ($i <= 5) {
+    $a += 10;
+    $b += 5;
+    echo "Шаг $i: a = $a, b = $b<br>";
+    $i++;
+}
+echo "End of the loop: a = $a, b = $b<br>"; ?>
+```
+![image](https://github.com/user-attachments/assets/ce2eee4e-6012-405b-8c25-57306c384bcb)
+
+
