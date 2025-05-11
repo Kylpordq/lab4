@@ -139,8 +139,7 @@ for ($i = 0; $i < count($descriptions); $i++) {
 
    ```php
    for($i=0; $i<100; $i++){
-   $numbers[] = rand(1, 100); 
-  }
+   $numbers[] = rand(1, 100); }
   ```
 4. Что такое ассоциативный массив ?
 
