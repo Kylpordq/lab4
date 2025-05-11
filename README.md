@@ -125,4 +125,7 @@ for ($i = 0; $i < count($descriptions); $i++) {
 
 ![image](https://github.com/user-attachments/assets/119b3742-a032-4cd7-8764-5dc0614d467b)
 
+## 5. Ответы на контрольные вопросы
+
+
 
