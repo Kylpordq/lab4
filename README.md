@@ -1,8 +1,9 @@
 # lab4
 ## Инструкции по запуску проекта
 1. Скачайте проект и разместите файлы в директории веб-сервера:
-   git clone https://github.com/ваш-репозиторий.git
+`git clone https://github.com/ваш-репозиторий.git`
 2. Запустите сервер:
-   php -S localhost:8000
-3. Откройте в браузере:
-   http://localhost:8000
+   `php -S localhost:8000`
+4. Откройте в браузере:
+   `http://localhost:8000`
+   
